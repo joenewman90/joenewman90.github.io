@@ -169,6 +169,10 @@ a {
     text-align: right;
 }
 
+.map-widget {
+    height: 180px;
+}
+
 
 /* Flex Elements */
 
@@ -800,6 +804,10 @@ div.trip-advisor.reset-cursor {
     padding-top: 4px;
 }
 
+.pl-fly {
+    padding-left: 4px;
+}
+
 .p-spider {
     padding: 8px;
 }
@@ -905,6 +913,10 @@ div.trip-advisor.reset-cursor {
 
 .mb-spider {
     margin-bottom: 8px;
+}
+
+.ml-spider {
+    margin-left: 8px;
 }
 
 .m-mouse {
