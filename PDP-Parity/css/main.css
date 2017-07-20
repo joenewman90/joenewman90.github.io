@@ -665,11 +665,14 @@ div.trip-advisor.reset-cursor {
 
 .moreChoicesWrapper {
     overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .moreChoices {
     margin-left: 8px;
     width: 873px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .card-hotel {
@@ -680,11 +683,13 @@ div.trip-advisor.reset-cursor {
     margin-right: 8px;
     vertical-align: top;
     display: inline-flex;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
 }
 
 .card-hotel-image {
     flex: 1;
-    background-color: pink;
+    background-color: #EAEAEA;
     background-size: cover;
     border-radius: 2px 0 0 2px;
 }
@@ -692,6 +697,7 @@ div.trip-advisor.reset-cursor {
 .card-hotel-content-wrapper {
     flex: 2;
     background: white;
+    border-radius: 2px;
 }
 
 .card-hotel-content {
