@@ -104,6 +104,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* Module and variant switchers */
+
+#dated {
+    display: block;
+}
+
+#dateless {
+    display: none;
+}
+
+#planned {
+    display: none;
+}
+
+
+/* Standard elements */
+
 body {
     margin: 0;
     color: #333;
@@ -814,6 +832,10 @@ div.trip-advisor.reset-cursor {
     padding: 0px;
 }
 
+.pb-none {
+    padding-bottom: 0;
+}
+
 .p-ant {
     padding: 2px;
 }
@@ -1022,6 +1044,10 @@ div.trip-advisor.reset-cursor {
 
 .b-ant {
     border-width: 1px;
+}
+
+.bb-ant {
+    border-bottom: 1px solid #d6d6d6;
 }
 
 .b-fly {
