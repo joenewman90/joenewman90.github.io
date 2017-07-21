@@ -219,10 +219,10 @@ ul {
 
 .tick li,
 .bullet li {
-    font-size: 12px;
+    font-size: 14px;
     list-style-type: none;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .tick li:before {
