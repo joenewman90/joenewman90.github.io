@@ -219,7 +219,7 @@ ul {
 
 .tick li,
 .bullet li {
-    font-size: 14px;
+    font-size: 13px;
     list-style-type: none;
     display: block;
     margin-bottom: 8px;
@@ -230,7 +230,7 @@ ul {
     font-family: hcom-icons;
     content: "\e925";
     color: #333;
-    margin-right: 6px;
+    margin-right: 7px;
     margin-left: -18px;
     vertical-align: text-bottom;
 }
