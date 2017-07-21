@@ -212,12 +212,16 @@ ul {
     margin-right: 0;
 }
 
+.col .tick li,
+.col .bullet li {
+    margin-left: 20px;
+}
+
 .tick li,
 .bullet li {
     font-size: 12px;
     list-style-type: none;
     display: block;
-    margin-left: 20px;
     margin-bottom: 4px;
 }
 
@@ -1003,6 +1007,10 @@ div.trip-advisor.reset-cursor {
 
 .m-dog {
     margin: 32px;
+}
+
+.mb-dog {
+    margin-bottom: 32px;
 }
 
 
