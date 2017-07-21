@@ -197,23 +197,19 @@ a {
     justify-content: flex-end;
 }
 
-.col-2 {
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0;
-}
-
 ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
-.col-inner {
+.col {
     flex: 1;
-    padding-left: 24px;
-    padding-right: 8px;
-    padding-top: 16px;
+    margin-right: 8px;
+}
+
+.col:last-child {
+    margin-right: 0;
 }
 
 .tick li,
@@ -221,7 +217,7 @@ ul {
     font-size: 12px;
     list-style-type: none;
     display: block;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-bottom: 4px;
 }
 
@@ -241,7 +237,7 @@ ul {
     font-family: hcom-icons;
     content: "\e901";
     color: #333;
-    margin-right: 10px;
+    margin-right: 14px;
     vertical-align: text-bottom;
 }
 
@@ -251,14 +247,14 @@ ul {
     font-family: hcom-icons;
     content: "\e93d";
     color: #333;
-    margin-right: 8px;
+    margin-right: 12px;
     vertical-align: text-bottom;
 }
 
 .overview .tick li:before,
 .overview .bullet li:before {
     color: #339933;
-    margin-left: -16px;
+    margin-left: -20px;
 }
 
 
@@ -314,10 +310,6 @@ ul {
     border: 1px solid #026DC5;
 }
 
-.content-wrap {
-    margin: 12px 24px;
-}
-
 .cta-fullwidth {
     width: 100%;
 }
@@ -371,7 +363,15 @@ ul {
     border-bottom: 1px solid #D6D6D6;
 }
 
+.card-content-c {
+    padding: 12px 8px;
+}
+
 .card-content {
+    padding: 12px;
+}
+
+.card-content-s {
     padding: 12px 16px;
 }
 
@@ -519,7 +519,19 @@ ul {
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
 }
 
+.text-grouping-c {
+    padding: 16px;
+}
+
 .text-grouping {
+    padding: 16px 20px;
+}
+
+.text-grouping-b-none {
+    padding: 16px 20px 0;
+}
+
+.text-grouping-s {
     padding: 16px 24px;
 }
 
@@ -838,6 +850,14 @@ div.trip-advisor.reset-cursor {
     padding: 12px;
 }
 
+.pl-mouse {
+    padding-left: 12px;
+}
+
+.pr-mouse {
+    padding-right: 12px;
+}
+
 .p-bird {
     padding: 16px;
 }
@@ -927,6 +947,10 @@ div.trip-advisor.reset-cursor {
 
 .m-mouse {
     margin: 12px;
+}
+
+.mt-mouse {
+    margin-top: 12px;
 }
 
 .mr-mouse {
