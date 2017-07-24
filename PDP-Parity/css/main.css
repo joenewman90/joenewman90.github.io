@@ -143,6 +143,13 @@ textarea {
     display: none;
 }
 
+input[type="radio"] {
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
 
 /* Standard elements */
 
