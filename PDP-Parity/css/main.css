@@ -164,6 +164,10 @@ a {
     font-weight: bold;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .centered {
     text-align: center;
 }
@@ -334,6 +338,11 @@ ul {
 
 .cta-fullwidth {
     width: 100%;
+}
+
+.cta-fullwidth-max {
+    width: 100%;
+    max-width: 375px;
 }
 
 
@@ -557,6 +566,10 @@ ul {
     padding: 16px 24px;
 }
 
+.label-grouping {
+    padding: 8px 20px;
+}
+
 
 /* TrustYou Module */
 
@@ -741,6 +754,26 @@ div.trip-advisor.reset-cursor {
 
 .topCard {
     display: flex;
+    width: 100%;
+}
+
+.cardRowWrap {
+    flex-wrap: wrap;
+}
+
+.bottomCard {
+    padding: 8px;
+    border-top: 1px solid #ccc;
+}
+
+
+/* Badging */
+
+.special-deal {
+    background: #d41200;
+    border-radius: 2px;
+    color: #fff;
+    padding: 4px;
 }
 
 
