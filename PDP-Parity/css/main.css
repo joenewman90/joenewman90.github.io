@@ -107,16 +107,36 @@ textarea {
 
 /* Module and variant switchers */
 
-#dated {
+.dated {
     display: block;
 }
 
-#dateless {
+.dateless {
     display: none;
 }
 
-#planned {
+.planned {
     display: none;
+}
+
+.couponCode {
+    display: block;
+}
+
+.v1 {
+    display: block;
+}
+
+.v2 {
+    display: block;
+}
+
+.v3 {
+    display: block;
+}
+
+.v4 {
+    display: block;
 }
 
 
@@ -646,7 +666,6 @@ div.trip-advisor.reset-cursor {
 .trip-advisor {
     background-color: #fff;
     border: 0;
-    text-align: left;
 }
 
 .trip-advisor .badge {
@@ -661,6 +680,13 @@ div.trip-advisor.reset-cursor {
 
 .trip-advisor .badge .ta-rating {
     display: block;
+    height: 9px;
+    line-height: 9px;
+    vertical-align: top;
+}
+
+.trip-advisor .badge .ta-rating.inline {
+    display: inline;
     height: 9px;
     line-height: 9px;
     vertical-align: top;
@@ -970,6 +996,10 @@ div.trip-advisor.reset-cursor {
 
 .m-ant {
     margin: 2px;
+}
+
+.ml-ant {
+    margin-left: 2px;
 }
 
 .m-fly {
