@@ -739,6 +739,10 @@ div.trip-advisor.reset-cursor {
     border-radius: 0 2px 2px 0;
 }
 
+.topCard {
+    display: flex;
+}
+
 
 /* Drive Direct Banner */
 
