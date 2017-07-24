@@ -139,6 +139,10 @@ textarea {
     display: block;
 }
 
+.content {
+    display: none;
+}
+
 
 /* Standard elements */
 
