@@ -116,7 +116,7 @@ textarea {
 }
 
 .planned {
-    display: none;
+    display: block;
 }
 
 .couponCode {
@@ -124,25 +124,22 @@ textarea {
 }
 
 .v1 {
-    display: block;
-}
-
-.v2 {
-    display: block;
-}
-
-.v3 {
-    display: block;
-}
-
-.v4 {
-    display: block;
-}
-
-.variants {
     display: none;
 }
 
+.v2 {
+    display: none;
+}
+
+.v3 {
+    display: none;
+}
+
+.v4 {
+    display: none;
+}
+
+input[type="checkbox"],
 input[type="radio"] {
     display: inline;
     margin-left: 20px;

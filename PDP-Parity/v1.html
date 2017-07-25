@@ -24,14 +24,19 @@
     <div class="container">
         <form id='variants'>
             <input type="radio" name="variant" class="v1 trigger" data-rel="v1" checked> v1
-            <input type="radio" name="variant" class="v2 trigger" data-rel="v2" checked> v2
-            <input type="radio" name="variant" class="v3 trigger" data-rel="v3" checked> v3
-            <input type="radio" name="variant" class="v4 trigger" data-rel="v4" checked> v4 </form>
+            <input type="radio" name="variant" class="v2 trigger" data-rel="v2"> v2
+            <input type="radio" name="variant" class="v3 trigger" data-rel="v3"> v3
+            <input type="radio" name="variant" class="v4 trigger" data-rel="v4"> v4 </form>
     </div>
     <div class="container">
         <form id='dates'>
             <input type="radio" name="dates" class="dated dateTrigger" data-rel="dated" checked> Dated
             <input type="radio" name="dates" class="dateless dateTrigger" data-rel="dateless"> Dateless </form>
+    </div>
+    <div class="container">
+        <form id='coupon'>
+            <input class="coupon_question" type="checkbox" name="coupon"> Coupon</form>
+        <input class="planned_question" type="checkbox" name="planned"> Planned work?</form>
     </div>
     <!-- End variant controls -->
     <header>
@@ -86,7 +91,7 @@
                     <p class="t-cat bold t-hds-brand-1"><span class="t-bird mr-fly t-hds-arch-3 normal strikethrough">£214</span>£79</p>
                     <p class="t-bird">for 1 night including taxes fees</p>
                     <p class="t-spider">+ €6 charges due at hotel</p>
-                    <div class="couponCode mt-spider">
+                    <div class="couponCode  mt-spider">
                         <p class="t-fly centered t-hds-success-1">Enter coupon code: LASTCHANCEHCOM2017</p>
                     </div>
                     <div class="centered">
@@ -95,6 +100,10 @@
                         </div>
                         <div class="dateless dateSwitch">
                             <button class="cta-primary-bunny cta-fullwidth-max">Check availability</button>
+                        </div>
+                        <div class="flex-wrapper fb-center">
+                            <p class="t-mouse mr-spider t-hds-button-1">Price Guarantee</p>
+                            <p class="t-bunny icon t-hds-button-1"></p>
                         </div>
                     </div>
                 </div>
