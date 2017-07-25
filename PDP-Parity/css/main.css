@@ -1171,6 +1171,10 @@ div.trip-advisor.reset-cursor {
     background: #333333;
 }
 
+.t-hds-arch-1 {
+    color: #333333;
+}
+
 .hds-arch-2 {
     background: #5b5b5b;
 }
@@ -1320,6 +1324,10 @@ div.trip-advisor.reset-cursor {
 
 .dio-colour-background-light {
     background: #f5f4f0;
+}
+
+.dio-colour-background-dark {
+    background: #e5e3db;
 }
 
 
