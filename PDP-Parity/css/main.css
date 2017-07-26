@@ -805,6 +805,7 @@ div.trip-advisor.reset-cursor {
     flex: 1;
     background-color: #EAEAEA;
     background-size: cover;
+    background-position: center;
     border-radius: 2px 0 0 2px;
 }
 
