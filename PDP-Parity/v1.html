@@ -21,22 +21,25 @@
         <![endif]-->
     <!-- Add your site or application content here -->
     <!-- Variant controls -->
-    <div class="container">
-        <form id='variants'>
-            <input type="radio" name="variant" class="v1 trigger" data-rel="v1" checked> v1
-            <input type="radio" name="variant" class="v2 trigger" data-rel="v2"> v2
-            <input type="radio" name="variant" class="v3 trigger" data-rel="v3"> v3
-            <input type="radio" name="variant" class="v4 trigger" data-rel="v4"> v4 </form>
-    </div>
-    <div class="container">
-        <form id='dates'>
-            <input type="radio" name="dates" class="dated dateTrigger" data-rel="dated" checked> Dated
-            <input type="radio" name="dates" class="dateless dateTrigger" data-rel="dateless"> Dateless </form>
-    </div>
-    <div class="container">
-        <form id='coupon'>
-            <input class="coupon_question" type="checkbox" name="coupon"> Coupon</form>
-        <input class="planned_question" type="checkbox" name="planned"> Planned work?</form>
+    <div class="Variant-toggles t-ant">
+        <div class="container">
+            <form id='variants'>
+                <input type="radio" name="variant" class="v1 trigger" data-rel="v1" checked> v1
+                <input type="radio" name="variant" class="v2 trigger" data-rel="v2"> v2
+                <input type="radio" name="variant" class="v3 trigger" data-rel="v3"> v3
+                <input type="radio" name="variant" class="v4 trigger" data-rel="v4"> v4 </form>
+        </div>
+        <div class="container">
+            <form id='dates'>
+                <input type="radio" name="dates" class="dated dateTrigger" data-rel="dated" checked> Dated
+                <input type="radio" name="dates" class="dateless dateTrigger" data-rel="dateless"> Dateless </form>
+        </div>
+        <div class="container">
+            <form id='coupon'>
+                <input class="coupon_question" type="checkbox" name="coupon"> Coupon
+                <input class="planned_question" type="checkbox" name="planned"> Planned work?
+                <input class="breadcrumb_question" type="checkbox" name="breadcrumb"> Breadcrumbs</form>
+        </div>
     </div>
     <!-- End variant controls -->
     <header>
@@ -81,7 +84,11 @@
                         <p class="t-mouse t-hds-success-1">Free Wifi</p>
                     </div>
                 </div>
-                <div style="--aspect-ratio:16/9;background:url(https://exp.cdn-hotels.com/hotels/2000000/1100000/1097800/1097758/80de2691_y.jpg);background-size:cover;"> </div>
+                <div class="hero-wrapper">
+                    <div style="--aspect-ratio:16/9;background:url(https://exp.cdn-hotels.com/hotels/2000000/1100000/1097800/1097758/80de2691_y.jpg);background-size:cover;"> </div>
+                    <div class="hero-control hero-control-left icon t-bird inactive"></div>
+                    <div class="hero-control hero-control-right icon t-bird"></div>
+                </div>
                 <div class="flex-wrapper fb-between hds-arch-1 label-grouping">
                     <p class="t-fly t-hds-colour-white"><span class="bold">[1/47] Superior Room, 2 Single Beds</span>
                         <br>Guestroom</p>
@@ -438,15 +445,25 @@
         </div>
     </section>
     <section>
-        <div class="container">
-            <div class="rewards1">
-                <div class="container text-grouping">
-                    <div class="flex-wrapper">
-                        <p class="t-mouse icon t-hds-purple-2 mr-spider"></p>
-                        <p class="t-mouse bold t-hds-purple-2">Hotels.com™ Rewards</p>
+        <div class="v1">
+            <div class="container">
+                <div class="rewards1 content">
+                    <div class="container text-grouping">
+                        <div class="flex-wrapper">
+                            <p class="t-mouse icon t-hds-purple-2 mr-spider"></p>
+                            <p class="t-mouse bold t-hds-purple-2">Hotels.com™ Rewards</p>
+                        </div>
+                        <p class="t-spider mt-fly t-hds-purple-2">You’ll collect 1 night with this stay</p>
+                        <p class="t-spider mt-fly ">Remember collect 10 nights, get 1 reward night</p>
                     </div>
-                    <p class="t-spider mt-fly t-hds-purple-2">You’ll collect 1 night with this stay</p>
-                    <p class="t-spider mt-fly ">Remember collect 10 nights, get 1 reward night</p>
+                </div>
+            </div>
+        </div>
+        <div class="v2 v3 v4 content">
+            <div class="container">
+                <div class="rewards2 text-grouping card no-shadow mb-none"> <img class="mb-mouse" src="img/rewards-logo.svg">
+                    <p class="t-bird t-hds-colour-white mb-fly">You’ll collect 2 nights with this stay</p>
+                    <p class="t-mouse t-hds-colour-white">Remember, collect 10 nights get 1 free*</p>
                 </div>
             </div>
         </div>
@@ -490,7 +507,7 @@
                             <p class="t-spider"><a href="#">Show room information</a></p>
                         </div>
                         <div class="p-mouse">
-                            <div class="room-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/2000000/1100000/1097800/1097758/57eeb31b_b.jpg')"><span class="icon-overlay"></span> </div>
+                            <div class="room-image" style="background-image:url('img/room1.jpg')"><span class="icon-overlay"></span> </div>
                         </div>
                     </div>
                 </div>
@@ -559,7 +576,7 @@
                             <p class="t-spider"><a href="#">Show room information</a></p>
                         </div>
                         <div class="p-mouse">
-                            <div class="room-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/2000000/1100000/1097800/1097758/a5995b04_e.jpg')"><span class="icon-overlay"></span> </div>
+                            <div class="room-image" style="background-image:url('img/room2.jpg')"><span class="icon-overlay"></span> </div>
                         </div>
                     </div>
                 </div>
@@ -599,61 +616,56 @@
     </section>
     <section>
         <div class="container">
-            <p class="t-bird bold text-grouping">More great choices</p>
+            <p class="t-bird bold text-grouping">Also popular with travellers from the UK</p>
             <div class="moreChoicesWrapper">
                 <div class="moreChoices">
                     <div class="card-hotel">
-                        <div class="card-hotel-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/1000000/570000/565700/565690/565690_85_l.jpg')"></div>
+                        <div class="card-hotel-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/2000000/1410000/1402000/1401996/1401996_201_b.jpg')"></div>
                         <div class="card-hotel-content-wrapper">
                             <div class="card-hotel-content">
-                                <p class="t-mouse bold">Rennaissance London Heathrow Hotel</p>
-                                <p class="t-fly mb-spider">4 stars</p>
-                                <p class="t-fly bold">Excellent 4.3<span class="t-ant normal"> / 5</span></p>
+                                <p class="t-mouse bold">Boscolo Budapest, Autograph Collection</p>
+                                <p class="t-fly mb-spider">5 stars</p>
+                                <p class="t-fly bold">Outstanding 4.7<span class="t-ant normal"> / 5</span></p>
                                 <div class="flex-wrapper fb-end mb-fly">
-                                    <p class="t-spider strikethrough mr-fly">£132</p>
-                                    <p class="t-bunny bold t-hds-brand-1">£98</p>
+                                    <p class="t-bunny bold ">£254</p>
                                 </div>
                                 <p class="t-ant right">price for 1 night, incl. taxes &amp; fees</p>
-                                <p class="t-ant t-hds-arch-4 right">Sponsored listing</p>
                             </div>
                         </div>
                     </div>
                     <div class="card-hotel">
-                        <div class="card-hotel-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/1000000/570000/565700/565690/565690_85_l.jpg')"></div>
+                        <div class="card-hotel-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/5000000/4710000/4703300/4703258/959e09b0_b.jpg')"></div>
                         <div class="card-hotel-content-wrapper">
                             <div class="card-hotel-content">
-                                <p class="t-mouse bold">Rennaissance London Heathrow Hotel</p>
-                                <p class="t-fly mb-spider">4 stars</p>
-                                <p class="t-fly bold">Excellent 4.3<span class="t-ant normal"> / 5</span></p>
+                                <p class="t-mouse bold">Buddha-Bar Hotel Budapest Klotild Palace</p>
+                                <p class="t-fly mb-spider">5 stars</p>
+                                <p class="t-fly bold">Excellent 4.5<span class="t-ant normal"> / 5</span></p>
                                 <div class="flex-wrapper fb-end mb-fly">
-                                    <p class="t-spider strikethrough mr-fly">£132</p>
-                                    <p class="t-bunny bold t-hds-brand-1">£98</p>
+                                    <p class="t-spider strikethrough mr-fly">£195</p>
+                                    <p class="t-bunny bold t-hds-brand-1">£166</p>
                                 </div>
-                                <p class="t-ant right">price for 1 night, incl. taxes &amp; fees</p>
-                                <p class="t-ant t-hds-arch-4 right">Sponsored listing</p>
+                                <p class="t-ant right">price for 1 night, + €7 charges due at hotel</p>
                             </div>
                         </div>
                     </div>
                     <div class="card-hotel">
-                        <div class="card-hotel-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/1000000/570000/565700/565690/565690_85_l.jpg')"></div>
+                        <div class="card-hotel-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/1000000/980000/975000/974901/974901_161_b.jpg')"></div>
                         <div class="card-hotel-content-wrapper">
                             <div class="card-hotel-content">
-                                <p class="t-mouse bold">Rennaissance London Heathrow Hotel</p>
-                                <p class="t-fly mb-spider">4 stars</p>
-                                <p class="t-fly bold">Excellent 4.3<span class="t-ant normal"> / 5</span></p>
+                                <p class="t-mouse bold">Four Seasons Gresham Palace</p>
+                                <p class="t-fly mb-spider">5 stars</p>
+                                <p class="t-fly bold">Outstanding 4.9<span class="t-ant normal"> / 5</span></p>
                                 <div class="flex-wrapper fb-end mb-fly">
-                                    <p class="t-spider strikethrough mr-fly">£132</p>
-                                    <p class="t-bunny bold t-hds-brand-1">£98</p>
+                                    <p class="t-bunny bold ">£453</p>
                                 </div>
                                 <p class="t-ant right">price for 1 night, incl. taxes &amp; fees</p>
-                                <p class="t-ant t-hds-arch-4 right">Sponsored listing</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-grouping centered">
-                <button class="cta-secondary-mouse">See all hotels in London</button>
+                <button class="cta-secondary-mouse">See all hotels in Budapest</button>
             </div>
         </div>
     </section>
@@ -867,7 +879,13 @@
                 <p class="t-fly"><a href="#">See more</a></p>
             </div>
             <p class="t-fly mb-bird"><a href="#">Is the description of this hotel not correct? Tell us</a></p>
-            <div class="centered mb-bird"><img src="https://a2.cdn-hotels.com/da/assets/s/63.0.7863/images/common/pages/pda/trust-you-reviews-credit.png " alt=" "></div>
+            <ul id="breadcrumb" class="t-fly-s mb-bird">
+                <li><a href="/"><span itemprop="name">Hotels</span></a></li>
+                <li><a href="/"><span itemprop="name">Hungary Hotels</span></a></li>
+                <li><a href="/"><span itemprop="name">Budapest Hotels</span></a></li>
+                <li><a href="/"><span itemprop="name">Corinthia Hotel Budapest</span></a></li>
+            </ul>
+            <div class="centered"><img src="https://a2.cdn-hotels.com/da/assets/s/63.0.7863/images/common/pages/pda/trust-you-reviews-credit.png " alt=" "></div>
         </div>
         </div>
     </section>
@@ -878,7 +896,7 @@
         </div>
     </section>
     <footer>
-        <div class="container footer">
+        <div class="container text-grouping footer">
             <ul>
                 <li class="toggle"><a href="#">Top destinations</a></li>
                 <li class="toggle"><a href="#">Top countries</a></li>
@@ -887,7 +905,7 @@
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Jobs</a></li>
             </ul>
-            <p class="p-cat t-fly">© 2017 Hotels.com, L.P. All rights reserved.
+            <p class="t-fly">© 2017 Hotels.com, L.P. All rights reserved.
                 <br> Hotels.com and the Hotels.com logo are trademarks or registered trademarks of Hotels.com, LP in the U.S. and/or other countries. All other trademarks are property of their respective owners.</p>
         </div>
     </footer>

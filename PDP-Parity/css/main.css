@@ -503,6 +503,8 @@ ul {
     width: 84px;
     height: 84px;
     background-color: #EAEAEA;
+    background-size: cover;
+    background-position: center;
 }
 
 .icon-overlay {
@@ -545,6 +547,32 @@ ul {
     display: inline-block;
     font-family: "hcom-icons";
     font-size: 16px;
+}
+
+.hero-wrapper {
+    position: relative;
+}
+
+.hero-control {
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    text-align: center;
+}
+
+.hero-control-left {
+    border-radius: 0 2px 2px 0;
+}
+
+.hero-control-right {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.inactive {
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .separator {
@@ -729,6 +757,11 @@ div.trip-advisor.reset-cursor {
     border-bottom: 1px solid #d6d6d6;
 }
 
+.rewards2 {
+    background: #990066;
+    background-image: url("/img/rewards-bg.svg");
+}
+
 
 /* Rooms and rates */
 
@@ -800,6 +833,37 @@ div.trip-advisor.reset-cursor {
     border-top: 1px solid #ccc;
 }
 
+#breadcrumb {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#breadcrumb li {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#breadcrumb li a {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+#breadcrumb li:after {
+    color: #ccc;
+    content: '>';
+    display: inline-block;
+    margin: 0 8px 0 0;
+}
+
+#breadcrumb li:last-child:after {
+    color: #ccc;
+    content: none;
+    display: inline-block;
+    margin: 0 8px 0 0;
+}
+
 
 /* Badging */
 
@@ -831,7 +895,7 @@ div.trip-advisor.reset-cursor {
 }
 
 .footer li {
-    padding: 12px 24px;
+    padding: 12px;
     font-size: 14px;
 }
 
@@ -861,6 +925,11 @@ div.trip-advisor.reset-cursor {
 .t-fly-c {
     font-size: 12px;
     line-height: 14px;
+}
+
+.t-fly-s {
+    font-size: 12px;
+    line-height: 18px;
 }
 
 .t-spider {
@@ -1000,6 +1069,10 @@ div.trip-advisor.reset-cursor {
 
 .m-none {
     margin: 0px;
+}
+
+.mb-none {
+    margin-bottom: 0px;
 }
 
 .m-ant {
