@@ -503,6 +503,9 @@ ul {
     width: 84px;
     height: 84px;
     background-color: #EAEAEA;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center;
 }
