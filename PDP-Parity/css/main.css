@@ -508,6 +508,7 @@ ul {
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .icon-overlay {
@@ -517,6 +518,8 @@ ul {
     background: #fff;
     padding: 2px;
     float: right;
+    position: absolute;
+    right: 0;
 }
 
 
