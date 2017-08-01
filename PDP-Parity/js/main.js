@@ -30,12 +30,3 @@ $(".planned_question").click(function () {
         $(".planned").hide();
     }
 });
-$("ul#breadcrumb").hide();
-$(".breadcrumb_question").click(function () {
-    if ($(this).is(":checked")) {
-        $("ul#breadcrumb").show();
-    }
-    else {
-        $("ul#breadcrumb").hide();
-    }
-});
