@@ -39,3 +39,12 @@ $(".urgency_question").click(function () {
         $(".urgency").hide();
     }
 });
+$(".pin").hide();
+$(".pin_question").click(function () {
+    if ($(this).is(":checked")) {
+        $(".pin").show();
+    }
+    else {
+        $(".pin").hide();
+    }
+});

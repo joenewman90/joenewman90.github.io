@@ -21,7 +21,7 @@
         <![endif]-->
     <!-- Add your site or application content here -->
     <!-- Variant controls -->
-    <div class="variant-toggles t-ant">
+    <div class="variant-toggles t-ant p-spider">
         <div class="container">
             <form id='variants'>
                 <input type="radio" name="variant" class="v1 trigger" data-rel="v1" checked> v1
@@ -37,6 +37,8 @@
         <div class="container">
             <form id='coupon'>
                 <input class="urgency_question" type="checkbox" name="urgency"> Urgency
+                <input class="pin_question" type="checkbox" name="pin"> Book Now
+                <br>
                 <input class="coupon_question" type="checkbox" name="coupon"> Coupon
                 <input class="planned_question" type="checkbox" name="planned"> Planned work?</form>
         </div>
@@ -53,9 +55,23 @@
             </div>
         </div>
     </header>
+    <!-- Urgency messaging -->
     <div class="urgency">
         <div class="container fixed-bottom">
             <div class="msg-alert msg-closable">4 other people looked at this hotel in the last hour<i class="close"></i></div>
+        </div>
+    </div>
+    <!-- Pinned book now button -->
+    <div class="pin">
+        <div class="container fixed-footer-navigation-wrapper flex-wrapper sheet fb-between p-mouse sheet">
+            <div class="">
+                <p class="t-cat icon mr-mouse"><a href="#"></a></p>
+            </div>
+            <div class="flex-wrapper">
+                <div class="right t-mouse mr-spider"> <span>Lowest price: <span class="bold">£89</span></span>
+                </div>
+                <button class="cta-primary-mouse">Book Now</button>
+            </div>
         </div>
     </div>
     <section>
