@@ -30,3 +30,12 @@ $(".planned_question").click(function () {
         $(".planned").hide();
     }
 });
+$(".urgency").hide();
+$(".urgency_question").click(function () {
+    if ($(this).is(":checked")) {
+        $(".urgency").show();
+    }
+    else {
+        $(".urgency").hide();
+    }
+});
