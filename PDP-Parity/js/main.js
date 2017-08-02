@@ -48,3 +48,11 @@ $(".pin_question").click(function () {
         $(".pin").hide();
     }
 });
+$(".native_question").click(function () {
+    if ($(this).is(":checked")) {
+        $('body').addClass("native");
+    }
+    else {
+        $('body').removeClass("native");
+    }
+});
