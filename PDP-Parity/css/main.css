@@ -171,6 +171,10 @@ html {
     box-sizing: border-box;
 }
 
+span {
+    display: inline-block;
+}
+
 .inner {
     padding: 16px 24px;
 }
