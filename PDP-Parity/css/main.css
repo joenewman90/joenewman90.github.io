@@ -339,6 +339,14 @@ a {
     justify-content: flex-end;
 }
 
+.fb-quarter {
+    width: 25%;
+}
+
+fb-wrap {
+    flex-wrap: wrap;
+}
+
 ul {
     padding: 0;
     margin: 0;
