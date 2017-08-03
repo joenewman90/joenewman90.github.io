@@ -336,7 +336,7 @@ ul {
 }
 
 .col .tick li,
-.col .bullet li {
+.bullet li {
     margin-left: 20px;
 }
 
@@ -366,6 +366,7 @@ ul {
     color: #333;
     margin-right: 14px;
     vertical-align: text-bottom;
+    margin-left: -20px;
 }
 
 .bullet li.reviews:before {
