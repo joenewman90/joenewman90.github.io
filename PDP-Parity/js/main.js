@@ -48,6 +48,15 @@ $(".pin_question").click(function () {
         $(".pin").hide();
     }
 });
+$(".vr").hide();
+$(".vr_question").click(function () {
+    if ($(this).is(":checked")) {
+        $(".vr").show();
+    }
+    else {
+        $(".vr").hide();
+    }
+});
 $(".native_question").click(function () {
     if ($(this).is(":checked")) {
         $('body').addClass("native");
