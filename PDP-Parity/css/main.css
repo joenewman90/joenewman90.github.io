@@ -241,6 +241,16 @@ a {
     background: #fff;
 }
 
+.badge-wrap-no-margin {
+    flex-wrap: wrap;
+    margin-bottom: -8px;
+    /* This allows badges to flip into single rows when they have long names or a small breakpoint. There is a margin underneath each one but a negative margin on the wrapper to offset it */
+}
+
+.badge-wrap {
+    flex-wrap: wrap;
+}
+
 
 /* Alerts */
 
