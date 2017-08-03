@@ -232,6 +232,15 @@ a {
     height: 180px;
 }
 
+.loved-by-guests {
+    border: 1px solid #d41200;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #fff;
+}
+
 
 /* Alerts */
 
