@@ -370,6 +370,7 @@ ul {
 .tick li,
 .bullet li {
     font-size: 13px;
+    line-height: 17px;
     list-style-type: none;
     display: block;
     margin-bottom: 8px;
