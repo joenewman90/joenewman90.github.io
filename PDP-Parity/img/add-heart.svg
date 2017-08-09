@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>icn_heart_outline_next_to_text</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9" transform="translate(0.000000, -2.000000)" stroke-width="1.5" stroke="#848484">
+            <g id="icn_heart_outline_next_to_text">
+                <g transform="translate(0.000000, 2.000000)">
+                    <path d="M8,13.1449965 C11.9418038,10.9179922 15.25,6.74119857 15.25,4.19659793 C15.25,2.26907315 13.657388,0.75 11.6039282,0.749989713 C10.4344189,0.756115167 9.32498994,1.24738026 8.55619562,2.09724894 L8,2.71209899 L7.44380438,2.09724894 C6.67501006,1.24738026 5.56558113,0.756115167 4.4,0.75 C2.34246021,0.75 0.75,2.26883069 0.75,4.19659793 C0.75,6.74119857 4.05819625,10.9179922 8,13.1449965 Z" id="Heart"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

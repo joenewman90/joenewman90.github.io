@@ -115,6 +115,14 @@ textarea {
     display: none;
 }
 
+.add {
+    display: block;
+}
+
+.added {
+    display: none;
+}
+
 .planned {
     display: block;
 }
@@ -867,6 +875,13 @@ div.trip-advisor.reset-cursor {
 
 .trip-advisor .badge .ta-traveller-rating {
     display: block;
+}
+
+
+/* Save module */
+
+.save {
+    border-bottom: 1px solid #d6d6d6;
 }
 
 

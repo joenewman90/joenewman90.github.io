@@ -35,6 +35,11 @@
                 <input type="radio" name="dates" class="dateless dateTrigger" data-rel="dateless"> Dateless </form>
         </div>
         <div class="container">
+            <form id='add'>
+                <input type="radio" name="add" class="add addTrigger" data-rel="add" checked> Add
+                <input type="radio" name="add" class="added addTrigger" data-rel="added"> Added </form>
+        </div>
+        <div class="container">
             <form id='coupon'>
                 <input class="native_question" type="checkbox" name="native"> Enable native fontstack *Experimental*
                 <br>
@@ -532,7 +537,8 @@
         <div class="v4  content"></div>
         <!-- Ends v4 reviews -->
     </section>
-    <section>
+    <!-- Old presentation of sharing functionality -->
+    <!-- <section>
         <div class="container flex-wrapper text-grouping">
             <div class="col">
                 <div class="flex-wrapper mb-bird">
@@ -550,13 +556,34 @@
                     <p class="t-mouse bold"><a href="#">Email</a></p>
                 </div>
                 <div class="flex-wrapper">
-                    <!-- Overriding default HDS font style due to icon fonts not been aligned in size -->
+                    
                     <p class="t-mouse icon t-hds-arch-3 mr-spider" style="
     font-size: 18px;
 "></p>
                     <p class="t-mouse bold"><a href="#">Save</a></p>
                 </div>
             </div>
+        </div>
+    </section> -->
+    <section>
+        <div class="add addSwitch">
+            <div class="container text-grouping save">
+                <div class="flex-wrapper">
+                    <p class="t-bird icon t-hds-arch-3 mr-spider"></p>
+                    <p class="t-mouse bold"><a href="#">Add</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="added addSwitch">
+            <div class="container text-grouping save">
+                <div class="flex-wrapper">
+                    <p class="t-bird icon t-hds-brand-1 mr-spider"></p>
+                    <p class="t-mouse bold t-hds-arch-1">Added</p>
+                </div>
+            </div>
+        </div>
+        <div class="container text-grouping">
+            <p class="t-mouse t-hds-arch-4"><span class="bold mr-spider"><a href="#">Price Watch</a></span><span class="mr-spider">|</span><span class="bold mr-spider"><a href="#">Email</a></span><span class="mr-spider">|</span><span class="bold"><a href="#">Share</a></span></p>
         </div>
     </section>
     <section>

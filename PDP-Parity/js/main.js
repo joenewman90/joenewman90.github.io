@@ -8,6 +8,10 @@ $('.dateTrigger').change(function () {
     $('.dateSwitch').hide();
     $('.' + $(this).data('rel')).show();
 });
+$('.addTrigger').change(function () {
+    $('.addSwitch').hide();
+    $('.' + $(this).data('rel')).show();
+});
 $('.couponTrigger').change(function () {
     $('.couponSwitch').hide();
     $('.' + $(this).data('rel')).show();
