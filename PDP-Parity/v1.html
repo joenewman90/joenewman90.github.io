@@ -332,25 +332,26 @@
     </div>
     <section>
         <div class="vr">
-            <div class="container text-grouping  bb-ant">
+            <div class="container p-mouse bb-ant">
                 <div class="container fb-wrap mb-spider flex-wrapper-top">
-                    <div class="col fb-quarter centered">
-                        <p class="t-spider icon"></p>
-                        <p class="t-spider bold centered">Sleeps 4</p>
+                    <div class="col-c t-wrap fb-quarter centered">
+                        <p class="t-cat icon mb-spider"></p>
+                        <p class="t-spider-c centered">Sleeps 4</p>
                     </div>
-                    <div class="col fb-quarter centered">
-                        <p class="t-spider icon"></p>
-                        <p class="t-spider bold  centered">2 bedrooms</p>
+                    <div class="col-c t-wrap fb-quarter centered">
+                        <p class="t-cat icon mb-spider"></p>
+                        <p class="t-spider-c centered">2 bedrooms</p>
                     </div>
-                    <div class="col fb-quarter centered">
-                        <p class="t-spider icon"></p>
-                        <p class="t-spider bold  centered">1 bathroom</p>
+                    <div class="col-c t-wrap fb-quarter centered">
+                        <p class="t-cat icon mb-spider"></p>
+                        <p class="t-spider-c centered">1 bathroom</p>
                     </div>
                     <!-- 4th column optional - need to change design layout as is too tight -->
-                    <!-- <div class="col fb-quarter centered">
-                        <p class="t-spider icon"></p>
-                        <p class="t-spider bold  centered">Kitchen</p>
-                    </div> --></div>
+                    <div class="col-c t-wrap fb-quarter centered">
+                        <p class="t-cat icon mb-spider"></p>
+                        <p class="t-spider-c centered">Kitchen</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -650,7 +651,7 @@
                                 <br>(including up to 1 child)</p>
                             <p class="t-spider"><a href="#">Show room information</a></p>
                         </div>
-                        <div class="">
+                        <div class="right-card">
                             <div class="room-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/2000000/1100000/1097800/1097758/cf6e0be2_b.jpg')"><span class="icon-overlay"></span> </div>
                         </div>
                     </div>
@@ -674,7 +675,7 @@
                                 <p class="t-spider">Collect and redeem</p>
                             </div>
                         </div>
-                        <div class="right">
+                        <div class="right-card">
                             <p class="t-spider t-hds-brand-1 mb-spider">Save 15%</p>
                             <p class="t-bunny t-hds-arch-2 strikethrough">£214</p>
                             <p class="t-cat bold t-hds-brand-1">£182</p>
@@ -698,7 +699,7 @@
                                 <p class="t-spider">Collect and redeem</p>
                             </div>
                         </div>
-                        <div class="right">
+                        <div class="right-card">
                             <p class="t-cat bold t-hds-arch-1">£196</p>
                             <p class="t-fly mb-mouse">for 1 night</p>
                             <button class="cta-primary-mouse mb-mouse">Book</button>
@@ -709,7 +710,7 @@
                 <!-- Room rate 2 -->
                 <div class="card stacked-card">
                     <div class="flex-wrapper-top dio-colour-background-dark fb-between p-mouse">
-                        <div class="ml-mouse">
+                        <div class="mr-mouse">
                             <p class="t-mouse bold mb-spider">Deluxe Room, 1 King Bed</p>
                             <div class="flex-wrapper-top mb-fly">
                                 <p class="t-fly icon mr-mouse"></p>
@@ -719,7 +720,7 @@
                                 <br>(including up to 1 child)</p>
                             <p class="t-spider"><a href="#">Show room information</a></p>
                         </div>
-                        <div class="">
+                        <div class="right-card">
                             <div class="room-image" style="background-image:url('https://exp.cdn-hotels.com/hotels/2000000/1100000/1097800/1097758/d355b5d2_b.jpg')"><span class="icon-overlay"></span> </div>
                         </div>
                     </div>
@@ -743,7 +744,7 @@
                                 <p class="t-spider">Collect and redeem</p>
                             </div>
                         </div>
-                        <div class="right">
+                        <div class="right-card">
                             <p class="t-cat bold t-hds-arch-1">£239</p>
                             <p class="t-fly mb-mouse">for 1 night</p>
                             <button class="cta-primary-mouse mb-mouse">Book</button>
@@ -959,57 +960,77 @@
     -->
     <section>
         <div class="container text-grouping">
-            <p class="t-bird bold mb-bird">At a glance</p>
-            <p class="t-mouse bold mb-mouse">Key facts</p>
-            <p class="t-spider bold mb-spider">Hotel size</p>
-            <ul class="bullet mb-bird">
-                <li>This hotel has 234 rooms</li>
-                <li>This hotel is arranged over 11 floors</li>
-            </ul>
-            <p class="t-spider bold mb-spider">Arriving / leaving</p>
-            <ul class="bullet mb-bird">
-                <li class="reviews">87% of customers were happy with check in</li>
-                <li>Check-in time 3 PM-2 AM</li>
-                <li>Check-out time is 11 AM</li>
-            </ul>
-            <p class="t-spider bold mb-spider">Required at check in</p>
-            <ul class="bullet mb-bird">
-                <li>Credit card deposit required</li>
-                <li>Government-issued photo ID required</li>
-                <li>Minimum check-in age is 18</li>
-            </ul>
-            <p class="t-mouse bold mb-mouse">Travelling with others</p>
-            <p class="t-spider bold mb-spider">Pets</p>
-            <ul class="bullet mb-bird">
-                <li>Pets not allowed (service animals welcome)</li>
-            </ul>
+            <div>
+                <p class="t-bird bold mb-bird">At a glance</p>
+            </div>
+            <div class="expandable-content">
+                <p class="t-mouse bold mb-mouse">Key facts</p>
+                <p class="t-spider bold mb-spider">Hotel size</p>
+                <ul class="bullet mb-bird">
+                    <li>This hotel has 234 rooms</li>
+                    <li>This hotel is arranged over 11 floors</li>
+                </ul>
+                <p class="t-spider bold mb-spider">Arriving / leaving</p>
+                <ul class="bullet mb-bird">
+                    <li class="reviews">87% of customers were happy with check in</li>
+                    <li>Check-in time 3 PM-2 AM</li>
+                    <li>Check-out time is 11 AM</li>
+                </ul>
+                <p class="t-spider bold mb-spider">Required at check in</p>
+                <ul class="bullet mb-bird">
+                    <li>Credit card deposit required</li>
+                    <li>Government-issued photo ID required</li>
+                    <li>Minimum check-in age is 18</li>
+                </ul>
+                <p class="t-mouse bold mb-mouse">Travelling with others</p>
+                <p class="t-spider bold mb-spider">Pets</p>
+                <ul class="bullet mb-bird">
+                    <li>Pets not allowed (service animals welcome)</li>
+                </ul>
+            </div>
             <div class="flex-wrapper mb-spider">
-                <p class="t-ant icon t-hds-button-1 mr-fly"></p>
-                <p class="t-fly"><a href="#">See more</a></p>
+                <p class="t-spider icon t-hds-button-1 mr-spider"></p>
+                <p class="t-spider"><a href="#">See more</a></p>
             </div>
             <hr>
-            <p class="t-bird bold mb-mouse">In the hotel</p>
-            <p class="t-spider bold mb-spider">Food and drink</p>
-            <ul class="bullet mb-bird">
-                <li>Breakfast buffet daily (surcharge)</li>
-                <li>Restaurant</li>
-                <li>Bar / lounge</li>
-            </ul>
+            <div class="expandable-content">
+                <p class="t-bird bold mb-mouse">In the hotel</p>
+                <p class="t-spider bold mb-spider">Taking the kids</p>
+                <ul class="bullet mb-bird">
+                    <li>In-room childcare (surcharge)</li>
+                    <li>Supervised childcare/activities (surcharge)</li>
+                </ul>
+                <p class="t-spider bold mb-spider">Things to do</p>
+                <ul class="bullet mb-bird">
+                    <li>Indoor pool</li>
+                    <li>24-hour fitness facilities</li>
+                    <li>Full-service spa</li>
+                    <li>Spa treatment room(s)</li>
+                    <li>Hiking/biking trails nearby</li>
+                    <li>Nightclub</li>
+                    <li>Spa tub</li>
+                    <li>Steam room</li>
+                    <li>Sauna</li>
+                </ul>
+                <p class="t-spider bold mb-spider">Food and drink</p>
+            </div>
             <div class="flex-wrapper mb-spider">
-                <p class="t-ant icon t-hds-button-1 mr-fly"></p>
-                <p class="t-fly"><a href="#">See more</a></p>
+                <p class="t-spider icon t-hds-button-1 mr-spider"></p>
+                <p class="t-spider"><a href="#">See more</a></p>
             </div>
             <hr>
-            <p class="t-bird bold mb-mouse">In the room</p>
-            <p class="t-mouse bold mb-spider">Home comforts</p>
-            <ul class="bullet mb-bird">
-                <li>Air conditioning</li>
-                <li>Mini bar</li>
-                <li>Coffee / tea maker</li>
-            </ul>
+            <div class="expandable-content">
+                <p class="t-bird bold mb-mouse">In the room</p>
+                <p class="t-mouse bold mb-spider">Home comforts</p>
+                <ul class="bullet mb-bird">
+                    <li>Air conditioning</li>
+                    <li>Mini bar</li>
+                    <li>Coffee / tea maker</li>
+                </ul>
+            </div>
             <div class="flex-wrapper mb-spider">
-                <p class="t-ant icon t-hds-button-1 mr-fly"></p>
-                <p class="t-fly"><a href="#">See more</a></p>
+                <p class="t-spider icon t-hds-button-1 mr-spider"></p>
+                <p class="t-spider"><a href="#">See more</a></p>
             </div>
     </section>
     <section>

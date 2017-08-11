@@ -47,7 +47,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 16px 0;
     padding: 0;
 }
 
@@ -311,6 +311,12 @@ a {
     left: 50%;
 }
 
+.expandable-content {
+    margin-bottom: 8px;
+    height: 136px;
+    overflow: hidden;
+}
+
 
 /* Fixed book now button */
 
@@ -364,6 +370,15 @@ ul {
 .col {
     flex: 1;
     margin-right: 8px;
+}
+
+.col-c {
+    flex: 1;
+    margin-right: 4px;
+}
+
+.col-c:last-child {
+    margin-right: 0;
 }
 
 .col:last-child {
@@ -551,6 +566,11 @@ ul {
 .card-cheapest {
     border: 2px solid #339933;
     box-sizing: border-box;
+}
+
+.right-card {
+    width: 84px;
+    text-align: right;
 }
 
 .map-widhget:before,
@@ -1054,6 +1074,10 @@ div.trip-advisor.reset-cursor {
 
 /* Text styles */
 
+.t-wrap {
+    word-wrap: break-word;
+}
+
 .t-ant {
     font-size: 11px;
     line-height: 15px;
@@ -1077,6 +1101,11 @@ div.trip-advisor.reset-cursor {
 .t-spider {
     font-size: 13px;
     line-height: 17px;
+}
+
+.t-spider-c {
+    font-size: 13px;
+    line-height: 15px;
 }
 
 .t-mouse {
