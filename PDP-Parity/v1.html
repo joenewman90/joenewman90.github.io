@@ -35,6 +35,11 @@
                 <input type="radio" name="dates" class="dateless dateTrigger" data-rel="dateless"> Dateless </form>
         </div>
         <div class="container">
+            <form id='tel'>
+                <input type="radio" name="tel" class="oneTel telTrigger" data-rel="oneTel" checked> One tel number
+                <input type="radio" name="tel" class="twoTel telTrigger" data-rel="twoTel"> Two tel numbers </form>
+        </div>
+        <div class="container">
             <form id='add'>
                 <input type="radio" name="add" class="add addTrigger" data-rel="add" checked> Add
                 <input type="radio" name="add" class="added addTrigger" data-rel="added"> Added </form>
@@ -105,8 +110,12 @@
                 <div class="text-grouping">
                     <p class="t-bird bold mb-fly"><span class="mr-spider mb-fly">Corinthia Hotel Budapest</span><span><span class="t-mouse bold mr-spider t-hds-brand-1 mr-spider">4 stars</span><span class="t-mouse icon t-hds-purple-2"></span></span>
                     </p>
-                    <p class="t-ant mb-spider"><span class="mr-spider">Erzsebet krt 43-49, Budapest, 1073, Hungary</span><span class="t-ant t-hds-button-1"><a href="tel:0808 234 5358" rel="nofollow">0808 234 5358</a><span class="t-hds-arch-1"> &nbsp or &nbsp </span><a href="tel:0207 365 1817" rel="nofollow">0207 365 1817</a></span>
-                    </p>
+                    <div class="oneTel telSwitch">
+                        <p class="t-ant mb-spider"><span class="mr-spider inline">Erzsebet krt 43-49, Budapest, 1073, Hungary</span><span class="t-ant t-hds-button-1"><a href="tel:0808 234 5358" rel="nofollow">0808 234 5358</a></span> </p>
+                    </div>
+                    <div class="twoTel telSwitch">
+                        <p class="t-ant mb-spider"><span class="mr-spider inline">Erzsebet krt 43-49, Budapest, 1073, Hungary</span><span class="t-ant t-hds-button-1 mr-fly"><a href="tel:0808 234 5358" rel="nofollow">0808 234 5358</a></span><span class="t-hds-arch-1 mr-fly">or</span><span class="t-ant t-hds-button-1"><a href="tel:0207 365 1817" rel="nofollow">0207 365 1817</a></span> </p>
+                    </div>
                     <p class="t-mouse mb-spider">Luxury hotel with 2 restaurants, near Hungarian State Opera House</p>
                     <div class="flex-wrapper badge-wrap-no-margin">
                         <div class="flex-wrapper mr-bird mb-spider">
@@ -166,8 +175,12 @@
                 <div class="text-grouping">
                     <p class="t-bird bold mb-fly"><span class="mr-spider mb-fly">Corinthia Hotel Budapest</span><span><span class="t-mouse bold mr-spider t-hds-brand-1 mr-spider">4 stars</span><span class="t-mouse icon t-hds-purple-2"></span></span>
                     </p>
-                    <p class="t-ant mb-spider"><span class="mr-spider">Erzsebet krt 43-49, Budapest, 1073, Hungary</span><span class="t-ant t-hds-button-1"><a href="tel:0808 234 5358" rel="nofollow">0808 234 5358</a><span class="t-hds-arch-1"> &nbsp or &nbsp </span><a href="tel:0207 365 1817" rel="nofollow">0207 365 1817</a></span>
-                    </p>
+                    <div class="oneTel telSwitch">
+                        <p class="t-ant mb-spider"><span class="mr-spider inline">Erzsebet krt 43-49, Budapest, 1073, Hungary</span><span class="t-ant t-hds-button-1"><a href="tel:0808 234 5358" rel="nofollow">0808 234 5358</a></span> </p>
+                    </div>
+                    <div class="twoTel telSwitch">
+                        <p class="t-ant mb-spider"><span class="mr-spider inline">Erzsebet krt 43-49, Budapest, 1073, Hungary</span><span class="t-ant t-hds-button-1 mr-fly"><a href="tel:0808 234 5358" rel="nofollow">0808 234 5358</a></span><span class="t-hds-arch-1 mr-fly">or</span><span class="t-ant t-hds-button-1"><a href="tel:0207 365 1817" rel="nofollow">0207 365 1817</a></span> </p>
+                    </div>
                     <p class="t-mouse mb-spider">Luxury hotel with 2 restaurants, near Hungarian State Opera House</p>
                     <div class="flex-wrapper badge-wrap mb-spider">
                         <div class="flex-wrapper mr-bird mb-spider">
@@ -446,9 +459,17 @@
                             <p class="t-bird t-hds-arch-3 icon mr-mouse"></p>
                             <p class="t-fly"><a href="#">Erzsebet krt 43-49, Budapest, 1073, Hungary</a></p>
                         </div>
-                        <div class="flex-wrapper-top">
-                            <p class="t-fly t-hds-arch-3 icon mr-mouse"></p>
-                            <p class="t-fly"><a href="tel:0203 027 9779" rel="nofollow">0203 027 9779</a></p>
+                        <div class="oneTel telSwitch">
+                            <div class="flex-wrapper-top">
+                                <p class="t-fly t-hds-arch-3 icon mr-mouse"></p>
+                                <p class="t-fly"><a href="tel:0203 027 9779" rel="nofollow">0203 027 9779</a></p>
+                            </div>
+                        </div>
+                        <div class="twoTel telSwitch">
+                            <div class="flex-wrapper-top">
+                                <p class="t-fly t-hds-arch-3 icon mr-mouse"></p>
+                                <p class="t-fly"><span class="t-hds-button-1 mr-fly"><a href="tel:0808 234 5358" rel="nofollow">0808 234 5358</a></span><span class="t-hds-arch-1 mr-fly">or</span><span class="t-hds-button-1"><a href="tel:0207 365 1817" rel="nofollow">0207 365 1817</a></span></p>
+                            </div>
                         </div>
                     </div>
                     <div class="card-content">

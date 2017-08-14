@@ -8,6 +8,10 @@ $('.dateTrigger').change(function () {
     $('.dateSwitch').hide();
     $('.' + $(this).data('rel')).show();
 });
+$('.telTrigger').change(function () {
+    $('.telSwitch').hide();
+    $('.' + $(this).data('rel')).show();
+});
 $('.addTrigger').change(function () {
     $('.addSwitch').hide();
     $('.' + $(this).data('rel')).show();

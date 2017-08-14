@@ -115,6 +115,14 @@ textarea {
     display: none;
 }
 
+.oneTel {
+    display: block;
+}
+
+.twoTel {
+    display: none;
+}
+
 .add {
     display: block;
 }
@@ -215,6 +223,10 @@ a {
 
 .centered {
     text-align: center;
+}
+
+.inline {
+    display: inline;
 }
 
 .scrim {
