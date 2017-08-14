@@ -1011,7 +1011,7 @@ div.trip-advisor.reset-cursor {
 }
 
 #breadcrumb li:after {
-    color: #ccc;
+    color: #adadad;
     content: "";
     display: inline-block;
     margin: 0 4px 0 0;
