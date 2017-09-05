@@ -938,6 +938,10 @@ div.trip-advisor.reset-cursor {
 .rooms-rates-sheet-1 {
     background: #5B5B5B;
     color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    z-index: 3;
 }
 
 .rooms-rates-outline-wrapper {
