@@ -107,10 +107,12 @@ select {
 
 .pinned {
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background: #d41200;
     z-index: 1;
     overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
     border-bottom: 2px solid #ccc;
 }
 
