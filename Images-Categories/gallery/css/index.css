@@ -34,6 +34,11 @@ li a:visited {
     text-decoration: none;
 }
 
+li.active a {
+    color: #333;
+    text-decoration: none;
+}
+
 ol,
 ul {
     margin: 0;
@@ -55,11 +60,13 @@ ul {
 }
 
 .simplefilter li {
-    background-color: #585858;
+    background-color: #333;
+    border: 1px solid #fff;
 }
 
 .simplefilter li.active {
-    background-color: #212121;
+    background-color: #fff;
+    color: #333;
 }
 
 .multifilter li {
@@ -109,11 +116,24 @@ select {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #d41200;
+    background: #333;
     z-index: 1;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     border-bottom: 2px solid #ccc;
+}
+
+.modalHeader {
+    background: #d41200;
+    height: 46px;
+}
+
+.modalHeader a {
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    padding: 8px 14px;
+    font-weight: bold;
 }
 
 .simplefilter {
