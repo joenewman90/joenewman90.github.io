@@ -116,11 +116,15 @@ select {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #333;
     z-index: 1;
+}
+
+.modalNav {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     border-bottom: 2px solid #ccc;
+    background: #333;
+    top: 46px;
 }
 
 .modalHeader {
