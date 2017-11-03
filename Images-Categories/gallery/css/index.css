@@ -147,6 +147,11 @@ select {
 
 /* Anchor styles */
 
+h1 {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
 .fixed {
     position: fixed;
     top: 46px;
@@ -168,6 +173,7 @@ select {
     display: inline-block;
     margin: 0 8px 8px;
     padding: 0;
+    font-size: 12px;
 }
 
 .navigation ul li.active a {
@@ -205,20 +211,6 @@ select {
     margin-top: 75px;
 }
 
-.page {}
-
-.page.blue {
-    background-color: #0071c5;
-}
-
-.page.green {
-    background-color: #c4d600;
-}
-
-.page.orange {
-    background-color: #fc4c02;
-}
-
-.page.yellow {
-    background-color: #f3d54e;
+.page {
+    min-height: 500px;
 }

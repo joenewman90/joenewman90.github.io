@@ -7,146 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <title>Filterizr Use Case</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css ">
-    <link rel="stylesheet " href="css/index.css ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js "></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js "></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
 <body>
-    <div class="row modalHeader pinned "> <a href="https://joenewman90.github.io/Images-Categories/">X</a> </div>
+    <div class="row modalHeader pinned"> <a href="https://joenewman90.github.io/Images-Categories/">X</a> </div>
     <nav class="navigation fixed" id="nav">
         <ul>
-            <li data-filter="1" class=""><a href="#pool">Pool (2)</a></li>
+            <li data-filter="1" class="active"><a href="#pool">Pool (2)</a></li>
             <li data-filter="2" class=""><a href="#guestroom">Guestroom (30)</a></li>
             <li data-filter="3" class=""><a href="#lobby">Lobby (5)</a></li>
             <li data-filter="4" class=""><a href="#spa">Spa (3)</a></li>
             <li data-filter="5" class=""><a href="#dining">Dining (4)</a></li>
             <li data-filter="7" class=""><a href="#exterior">Exterior (4)</a></li>
             <li data-filter="8" class=""><a href="#bar">Bar (4)</a></li>
-            <li data-filter="9" class=""><a href="#fitness">Fitness (4)</a></li>
+            <li data-filter="9" class=""><a href="#fitness">Fitness (3)</a></li>
             <li data-filter="10" class=""><a href="#interior">Interior (5)</a></li>
             <li data-filter="11" class=""><a href="#amenity">Property Amenity (3)</a></li>
         </ul>
     </nav>
-    <div class="page top-page">
-        <div class="filtr-item " data-category="3 " data-sort=" "> <img class="img-responsive " img alt="Corinthia Hotel London, London " src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_108_z.jpg "> <span class="item-desc "></span> </div>
+    <div class="top-page">
+        <div class="filtr-item" data-category="3" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_108_z.jpg"><span class="item-desc"></span></div>
     </div>
     <!--POOL CATEGORY -->
-    <div class="page " id="pool">
+    <div id="pool">
         <h1>Pool</h1>
-        <div class="filtr-item" data-category="1" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Indoor Pool" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_155_z.jpg"> <span class="item-desc">Indoor Pool</span> </div>
-        <div class="filtr-item" data-category="1" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Indoor Pool" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_165_z.jpg"> <span class="item-desc">Indoor Pool</span> </div>
+        <div class="filtr-item" data-category="1" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Indoor Pool" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_155_z.jpg"><span class="item-desc">Indoor Pool</span></div>
+        <div class="filtr-item" data-category="1" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Indoor Pool" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_165_z.jpg"><span class="item-desc">Indoor Pool</span></div>
     </div>
     <!--GUESTROOM CATEGORY -->
-    <div class="page" id="guestroom">
+    <div id="guestroom">
         <h1>Guestroom</h1>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Suite, 1 King Bed (Whitehall), Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_97_z.jpg"> <span class="item-desc">Suite, 1 King Bed (Whitehall) Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Explorer 's Penthouse, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_112_z.jpg"> <span class="item-desc">The Explorer's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Whitehall Penthouse, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_113_z.jpg"> <span class="item-desc">The Whitehall Penthouse - Guest Room  </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Suite, 1 King Bed, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_122_z.jpg"> <span class="item-desc">Suite, 1 King Bed - Guest Room  </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Executive Room, 1 King Bed, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_125_z.jpg"> <span class="item-desc">Executive Room, 1 King Bed - Guest Room  </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Deluxe Suite, 1 King Bed, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_126_z.jpg"> <span class="item-desc">Deluxe Suite, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Deluxe Room, 1 King Bed, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_144_z.jpg"> <span class="item-desc">Deluxe Room, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Deluxe Room, 1 King Bed, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_158_z.jpg"> <span class="item-desc">Deluxe Room, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Superior Room, 1 King Bed, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_162_z.jpg"> <span class="item-desc">Superior Room, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_170_z.jpg"> <span class="item-desc">Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Actor's Penthouse, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_173_z.jpg"> <span class="item-desc">The Actor's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Suite, 1 King Bed (Trafalgar), Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_175_z.jpg"> <span class="item-desc">Suite, 1 King Bed (Trafalgar) - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Family Room, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/9e34d809_z.jpg"> <span class="item-desc">Family Room - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Family Room, Guest Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/be46305a_z.jpg"> <span class="item-desc">Family Room - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Deluxe Suite, 1 King Bed, Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_91_z.jpg"> <span class="item-desc">Deluxe Suite, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Junior Suite, Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_99_z.jpg"> <span class="item-desc">Living Area - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Explorer's Penthouse, Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_111_z.jpg"> <span class="item-desc">The Explorer's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Explorer's Penthouse, Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_139_z.jpg"> <span class="item-desc">The Explorer's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Whitehall Penthouse, Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_141_z.jpg"> <span class="item-desc">The Whitehall Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Suite, 1 King Bed (Trafalgar), Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_159_z.jpg"> <span class="item-desc">Suite, 1 King Bed (Trafalgar) - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Suite, 1 King Bed (Whitehall), Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_167_z.jpg"> <span class="item-desc">Suite, 1 King Bed (Whitehall) - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Actor's Penthouse, Living Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_168_z.jpg"> <span class="item-desc">The Actor's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Suite, 1 King Bed, Living Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_92_z.jpg"> <span class="item-desc">Suite, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Whitehall Penthouse, Living Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_114_z.jpg"> <span class="item-desc">The Whitehall Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Actor's Penthouse, Balcony" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_115_z.jpg"> <span class="item-desc">The Actor's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Deluxe Room, 1 King Bed, In-Room Amenity" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_134_z.jpg"> <span class="item-desc">Deluxe Room, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Deluxe Room, 1 King Bed, In-Room Amenity" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_136_z.jpg"> <span class="item-desc">Deluxe Room, 1 King Bed - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Actor's Penthouse, Bathroom" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_110_z.jpg"> <span class="item-desc">The Actor's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Whitehall Penthouse, Bathroom" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_116_z.jpg"> <span class="item-desc">The Whitehall Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Explorer's Penthouse, Bathroom" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_117_z.jpg"> <span class="item-desc">The Explorer's Penthouse - Guest Room </span> </div>
-        <div class="filtr-item" data-category="2" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Deluxe Room, 1 King Bed, Bathroom" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_128_z.jpg"> <span class="item-desc">Deluxe Room, 1 King Bed - Guest Room </span> </div>
+        <div class="filtr-item" data-category="3" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_108_z.jpg"><span class="item-desc"></span></div>
     </div>
     <!--LOBBY CATEGORY -->
-    <div class="page" id="lobby">
+    <div id="lobby">
         <h1>Lobby</h1>
-        <div class="filtr-item " data-category="3 " data-sort=" "> <img class="img-responsive " img alt="Corinthia Hotel London, London " src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_108_z.jpg "> <span class="item-desc "></span> </div>
-        <div class="filtr-item " data-category="3 " data-sort=" "> <img class="img-responsive " img alt="Corinthia Hotel London, London, Interior Entrance " src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_166_z.jpg "> <span class="item-desc ">Interior Entrance</span> </div>
-        <div class="filtr-item " data-category="3 " data-sort=" "> <img class="img-responsive " img alt="Corinthia Hotel London, London, Lobby " src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_132_z.jpg "> <span class="item-desc ">Lobby</span> </div>
-        <div class="filtr-item " data-category="3 " data-sort=" "> <img class="img-responsive " img alt="Corinthia Hotel London, London, Lobby " src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_174_z.jpg "> <span class="item-desc ">Lobby</span> </div>
+        <div class="filtr-item" data-category="3" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_108_z.jpg"><span class="item-desc"></span></div>
+        <div class="filtr-item" data-category="3" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Interior Entrance" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_166_z.jpg"><span class="item-desc">Interior Entrance</span></div>
+        <div class="filtr-item" data-category="3" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Lobby" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_132_z.jpg"><span class="item-desc">Lobby</span></div>
+        <div class="filtr-item" data-category="3" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Lobby" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_174_z.jpg"><span class="item-desc">Lobby</span></div>
     </div>
     <!--SPA CATEGORY -->
-    <div class="page" id="spa">
+    <div id="spa">
         <h1>Spa</h1>
-        <div class="filtr-item" data-category="4" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Spa" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_160_z.jpg"> <span class="item-desc">Spa</span> </div>
-        <div class="filtr-item" data-category="4" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Hair Salon" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_105_z.jpg"> <span class="item-desc">Hair Salon</span> </div>
-        <div class="filtr-item" data-category="4" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Treatment Room" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_157_z.jpg"> <span class="item-desc">Treatment Room</span> </div>
+        <div class="filtr-item" data-category="4" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Spa" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_160_z.jpg"><span class="item-desc">Spa</span></div>
+        <div class="filtr-item" data-category="4" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Hair Salon" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_105_z.jpg"><span class="item-desc">Hair Salon</span></div>
     </div>
     <!--DINING CATEGORY -->
-    <div class="page" id="dining">
+    <div id="dining">
         <h1>Dining</h1>
-        <div class="filtr-item" data-category="5" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Dining" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_161_z.jpg"> <span class="item-desc">Dining</span> </div>
-        <div class="filtr-item" data-category="5" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Restaurant" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_129_z.jpg"> <span class="item-desc">Restaurant</span> </div>
-        <div class="filtr-item" data-category="5" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Restaurant" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_130_z.jpg"> <span class="item-desc">Restaurant</span> </div>
-        <div class="filtr-item" data-category="5" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Restaurant" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_164_z.jpg"> <span class="item-desc">Restaurant</span> </div>
+        <!--<div class="filtr-item" data-category="5" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Dining" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_161_z.jpg"><span class="item-desc">Dining</span></div>-->
+        <div class="filtr-item" data-category="5" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Restaurant" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_129_z.jpg"><span class="item-desc">Restaurant</span></div>
+        <div class="filtr-item" data-category="5" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Restaurant" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_130_z.jpg"><span class="item-desc">Restaurant</span></div>
+        <div class="filtr-item" data-category="5" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Restaurant" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_164_z.jpg"><span class="item-desc">Restaurant</span></div>
     </div>
     <!--EXTERIOR CATEGORY -->
-    <div class="page" id="exterior">
+    <div id="exterior">
         <h1>Exterior</h1>
-        <div class="filtr-item" data-category="7" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Front – Evening/Night" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_120_z.jpg"> <span class="item-desc">Hotel Front – Evening/Night</span> </div>
-        <div class="filtr-item" data-category="7" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Courtyard" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_133_z.jpg"> <span class="item-desc">Courtyard</span> </div>
-        <div class="filtr-item" data-category="7" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Whitehall Penthouse, Terrace/Patio" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_119_z.jpg"> <span class="item-desc">Terrace/Patio</span> </div>
-        <div class="filtr-item" data-category="7" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Aerial View" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/dceec132_z.jpg"> <span class="item-desc">Aerial View</span> </div>
+        <!--<div class="filtr-item" data-category="7" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Front – Evening/Night" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_120_z.jpg"><span class="item-desc">Hotel Front – Evening/Night</span></div>-->
+        <div class="filtr-item" data-category="7" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Courtyard" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_133_z.jpg"><span class="item-desc">Courtyard</span></div>
+        <div class="filtr-item" data-category="7" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, The Whitehall Penthouse, Terrace/Patio" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_119_z.jpg"><span class="item-desc">Terrace/Patio</span></div>
+        <div class="filtr-item" data-category="7" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Aerial View" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/dceec132_z.jpg"><span class="item-desc">Aerial View</span></div>
     </div>
     <!--BAR CATEGORY -->
-    <div class="page" id="bar">
+    <div id="bar">
         <h1>Bar</h1>
-        <div class="filtr-item" data-category="8" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Bar" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_96_z.jpg"> <span class="item-desc">Hotel Bar</span> </div>
-        <div class="filtr-item" data-category="8" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Bar" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_138_z.jpg"> <span class="item-desc">Hotel Bar</span> </div>
-        <div class="filtr-item" data-category="8" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Lounge" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_154_z.jpg"> <span class="item-desc">Hotel Lounge</span> </div>
-        <div class="filtr-item" data-category="8" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Lounge" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_156_z.jpg"> <span class="item-desc">Hotel Lounge</span> </div>
+        <div class="filtr-item" data-category="8" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Lounge" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_154_z.jpg"><span class="item-desc">Hotel Lounge</span></div>
+        <div class="filtr-item" data-category="8" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Lounge" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_156_z.jpg"><span class="item-desc">Hotel Lounge</span></div>
     </div>
     <!--FITNESS CATEGORY -->
-    <div class="page" id="fitness">
+    <div id="fitness">
         <h1>Fitness</h1>
-        <div class="filtr-item" data-category="9" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Gym" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_93_z.jpg"> <span class="item-desc">Gym</span> </div>
-        <div class="filtr-item" data-category="9" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Sports Facility" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_176_z.jpg"> <span class="item-desc">Sports Facility</span> </div>
-        <div class="filtr-item" data-category="9" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Sports Court" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/30def8c2_z.jpg"> <span class="item-desc">Sports Court</span> </div>
-        <div class="filtr-item" data-category="9" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Sports Court" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/ca9b92d6_z.jpg"> <span class="item-desc">Sports Court</span> </div>
+        <div class="filtr-item" data-category="9" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Gym" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_93_z.jpg"><span class="item-desc">Gym</span></div>
+        <div class="filtr-item" data-category="9" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Sports Facility" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_176_z.jpg"><span class="item-desc">Sports Facility</span></div>
+        <div class="filtr-item" data-category="9" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Sports Court" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/ca9b92d6_z.jpg"><span class="item-desc">Sports Court</span></div>
     </div>
     <!--INTERIOR CATEGORY -->
-    <div class="page" id="interior">
+    <div id="interior">
         <h1>Interior</h1>
-        <div class="filtr-item" data-category="10" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Interior" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_106_z.jpg"> <span class="item-desc">Hotel Interior</span> </div>
-        <div class="filtr-item" data-category="10" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Explorer's Penthouse, Hotel Interior" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_140_z.jpg"> <span class="item-desc">The Explorer's Penthouse - Hotel Interior </span> </div>
-        <div class="filtr-item" data-category="10" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Ballroom" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_107_z.jpg"> <span class="item-desc">Ballroom</span> </div>
-        <div class="filtr-item" data-category="10" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Meeting Facility" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_163_z.jpg"> <span class="item-desc">Meeting Facility</span> </div>
-        <div class="filtr-item" data-category="10" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, The Actor's Penthouse, Interior Detail" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_137_z.jpg"> <span class="item-desc">The Actor's Penthouse - Interior Detail</span> </div>
+        <div class="filtr-item" data-category="10" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Hotel Interior" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_106_z.jpg"><span class="item-desc">Hotel Interior</span></div>
+        <div class="filtr-item" data-category="10" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, The Explorer's Penthouse, Hotel Interior" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_140_z.jpg"><span class="item-desc">The Explorer's Penthouse - Hotel Interior</span></div>
+        <div class="filtr-item" data-category="10" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Ballroom" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_107_z.jpg"><span class="item-desc">Ballroom</span></div>
+        <div class="filtr-item" data-category="10" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Meeting Facility" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_163_z.jpg"><span class="item-desc">Meeting Facility</span></div>
+        <div class="filtr-item" data-category="10" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, The Actor's Penthouse, Interior Detail" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/3849185_137_z.jpg"><span class="item-desc">The Actor's Penthouse - Interior Detail</span></div>
     </div>
     <!--AMENITY CATEGORY -->
-    <div class="page" id="amenity">
+    <div id="amenity">
         <h1>Amenity</h1>
-        <div class="filtr-item" data-category="11" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Gift Shop" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/adcc9480_z.jpg"> <span class="item-desc">Gift Shop</span> </div>
-        <div class="filtr-item" data-category="11" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Gift Shop" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/b614a08a_z.jpg"> <span class="item-desc">Gift Shop</span> </div>
-        <div class="filtr-item" data-category="11" data-sort=""> <img class="img-responsive" img alt="Corinthia Hotel London, London, Birthday Party Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/f3f695b2_z.jpg"> <span class="item-desc">Birthday Party Area</span> </div>
-    </div>
+        <div class="filtr-item" data-category="11" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Gift Shop" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/adcc9480_z.jpg"><span class="item-desc">Gift Shop</span></div>
+        <div class="filtr-item" data-category="11" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Gift Shop" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/b614a08a_z.jpg"><span class="item-desc">Gift Shop</span></div>
+        <div class="filtr-item" data-category="11" data-sort=""><img class="img-responsive" img alt="Corinthia Hotel London, London, Birthday Party Area" src="https://exp.cdn-hotels.com/hotels/4000000/3850000/3849200/3849185/f3f695b2_z.jpg"><span class="item-desc">Birthday Party Area</span></div>
     </div>
     <!-- Include jQuery & Filterizr -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/scrollspy.js"></script>
     <script type="text/javascript">
         $("#nav").scrollspy({
-            offset: -160
+            offset: 25
         });
     </script>
 </body>
