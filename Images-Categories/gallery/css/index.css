@@ -4,7 +4,7 @@ body {
 }
 
 .filtr-item {
-    padding: 1rem;
+    padding: 4px 8px;
 }
 
 a {
@@ -116,7 +116,7 @@ select {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 .modalNav {
@@ -142,4 +142,83 @@ select {
 
 .simplefilter {
     width: 1260px;
+}
+
+
+/* Anchor styles */
+
+.fixed {
+    position: fixed;
+    top: 46px;
+}
+
+.navigation {
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0 8px 8px;
+    padding: 0;
+}
+
+.navigation ul li.active a {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #d41200;
+}
+
+.navigation ul li.blue {
+    border-bottom-color: #0071c5;
+}
+
+.navigation ul li.green {
+    border-bottom-color: #c4d600;
+}
+
+.navigation ul li.orange {
+    border-bottom-color: #fc4c02;
+}
+
+.navigation ul li.yellow {
+    border-bottom-color: #f3d54e;
+}
+
+.navigation ul li a:link,
+.navigation ul li a:visited,
+.navigation ul li a:active,
+.navigation ul li a:hover,
+.navigation ul li a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.top-page {
+    margin-top: 75px;
+}
+
+.page {}
+
+.page.blue {
+    background-color: #0071c5;
+}
+
+.page.green {
+    background-color: #c4d600;
+}
+
+.page.orange {
+    background-color: #fc4c02;
+}
+
+.page.yellow {
+    background-color: #f3d54e;
 }
