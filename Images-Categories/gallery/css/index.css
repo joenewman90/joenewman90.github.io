@@ -5,6 +5,7 @@ body {
 
 .filtr-item {
     padding: 4px 8px;
+    max-width: 320px;
 }
 
 a {
@@ -25,6 +26,7 @@ a:-webkit-any-link {
     bottom: 1rem;
     left: 1rem;
     right: 1rem;
+    display: none;
 }
 
 li a,
@@ -136,7 +138,7 @@ select {
     color: #fff;
     font-size: 20px;
     float: right;
-    padding: 8px 14px;
+    padding: 8px 34px;
     font-weight: bold;
 }
 
@@ -171,8 +173,7 @@ h1 {
 
 .navigation ul li {
     display: inline-block;
-    margin: 0 8px 8px;
-    padding: 0;
+    padding: 4px 12px;
     font-size: 12px;
 }
 
