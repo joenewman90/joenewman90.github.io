@@ -153,13 +153,16 @@ select {
     height: 46px;
 }
 
+.back {
+    margin-top: 12px;
+}
+
 .modalHeader a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 20px;
-    padding: 8px;
     font-weight: bold;
     top: 4px;
-    position: absolute;
+    padding: 8px;
 }
 
 .simplefilter {}
