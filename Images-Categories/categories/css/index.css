@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "hcom-icons";
+    src: url("fonts/hcom-icons.eot");
+    src: url("fonts/hcom-icons.eot?#iefix") format("embedded-opentype"), url("fonts/hcom-icons.woff") format("woff"), url("fonts/hcom-icons.ttf") format("truetype"), url("fonts/hcom-icons.svg#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*# sourceMappingURL=fonts.css.map */
+
+.icon {
+    font-family: hcom-icons;
+}
+
+body {
+    margin-top: 0;
+    background: #4E4E4E;
+}
+
+.filtr-item {
+    padding: 0px 8px 8px;
+    max-width: 375px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.item-desc {
+    /* scrim: */
+    background-image: linear-gradient(transparent, hsla(0, 0%, 0%, 0.6));
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    z-index: 1;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.hero-filter .item-desc {
+    display: none;
+}
+
+li a,
+li a:hover,
+li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+li.active a {
+    color: #333;
+    text-decoration: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 8px;
+}
+
+
+/* Filter controls */
+
+.simplefilter li,
+.multifilter li,
+.sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.simplefilter li {
+    border: 1px solid #ccc;
+}
+
+.simplefilter li.active {
+    background-color: #fff;
+    color: #333;
+}
+
+.multifilter li {
+    background-color: #4b9eff;
+}
+
+.multifilter li.active {
+    background-color: #2265b4;
+}
+
+
+/* Shuffle and sort controls */
+
+select {
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+}
+
+.sortandshuffle .shuffle-btn {
+    background-color: #dec800;
+}
+
+.sortandshuffle .sort-btn {
+    background-color: #de0000;
+}
+
+.sortandshuffle .sort-btn.active {
+    background-color: #9d0000;
+}
+
+
+/* Search control */
+
+.search-row {
+    margin-left: 2.5rem;
+}
+
+.filtr-search {
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+
+/* Custom */
+
+.pinned {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.modalNav {
+    background: #4E4E4E;
+    top: 46px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 8px;
+}
+
+.modalHeader {
+    background: #4E4E4E;
+    height: 46px;
+}
+
+.modalHeader a {
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: bold;
+    top: 4px;
+    position: absolute;
+}
+
+.simplefilter {}
+
+
+/* Anchor styles */
+
+h1 {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.fixed {
+    position: fixed;
+    top: 46px;
+}
+
+.navigation {
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.navigation ul li.active a {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #d41200;
+}
+
+.navigation ul li.blue {
+    border-bottom-color: #0071c5;
+}
+
+.navigation ul li.green {
+    border-bottom-color: #c4d600;
+}
+
+.navigation ul li.orange {
+    border-bottom-color: #fc4c02;
+}
+
+.navigation ul li.yellow {
+    border-bottom-color: #f3d54e;
+}
+
+.navigation ul li a:link,
+.navigation ul li a:visited,
+.navigation ul li a:active,
+.navigation ul li a:hover,
+.navigation ul li a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.top-page {
+    margin-top: 75px;
+}
+
+.page {
+    min-height: 500px;
+}
