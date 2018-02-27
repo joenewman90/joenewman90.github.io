@@ -297,6 +297,7 @@ body {min-height: 100%;}
 bottom: 0;
      display: block;
 }
+.button {padding: 12px; background: blue; color: white; font-weight: bold; font-size: 16px;}
 #my-fixed-footer {
 position: -webkit-sticky;
   position: sticky;
