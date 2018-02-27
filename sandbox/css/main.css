@@ -301,6 +301,7 @@ z-index: 10;
   padding: 24px 12px;
   border-top: 1px solid #ccc;
   display: block;
+    margin-bottom: 44px;
 }
 #my-fixed-footer-gutter {
 position: sticky;
