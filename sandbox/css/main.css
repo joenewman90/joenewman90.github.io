@@ -302,11 +302,10 @@ z-index: 10;
   border-top: 1px solid #ccc;
   display: block;
     margin-bottom: 44px;
-}
-#my-fixed-footer a {
-    padding: 24px 12px;
+        padding: 24px 12px;
     display: block;
 }
+
 #my-fixed-footer-gutter {
 position: sticky;
 bottom: 0px;
