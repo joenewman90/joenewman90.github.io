@@ -290,7 +290,12 @@ textarea {
     }
 }
 /* My stylea */
-
+.sticky {
+    position: -webkit-sticky;
+  position: sticky;
+bottom: 0;
+     display: block;
+}
 #my-fixed-footer {
 position: -webkit-sticky;
   position: sticky;
